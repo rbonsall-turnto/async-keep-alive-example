@@ -29,7 +29,7 @@ export default {
       () => import('./components/HelloWorldAsync.vue')
     ),
     'goodbye-world-async': defineAsyncComponent(
-      () => import('./components/GoodbyeWorld.vue')
+      () => import('./components/GoodbyeWorldAsync.vue')
     )
   },
   methods: {
